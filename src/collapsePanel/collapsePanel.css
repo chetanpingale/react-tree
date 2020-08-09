@@ -1,0 +1,23 @@
+.collapse-panel {
+    display: flex;
+    /*align-items: flex-end;*/
+    flex-direction: row;
+    justify-content: space-between;
+}
+.active {
+    font-weight: bold;
+}
+.collapse-panel-title {
+    margin-left: 8px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 10%;
+}
+.collapse-panel-title:hover {
+    font-weight: bold;
+    cursor: pointer;
+}
+.collapse-panel-icon {
+    align-self: flex-end;
+    cursor: pointer;
+}
